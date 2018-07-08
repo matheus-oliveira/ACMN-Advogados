@@ -1,0 +1,6 @@
+'.text.html':
+  'Badge':
+    'prefix': 'bs3-badge'
+    'body': """
+      <span class="badge">${1:Badge}</span>
+    """

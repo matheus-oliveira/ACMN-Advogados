@@ -1,0 +1,25 @@
+'.text.html.php':
+
+'Service Provider':
+prefix: 'laravel:ServiceProvider'
+leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+rightLabelHTML: '<span style="color:#f4645f">Laravel</span> Service Provider'
+body: "<?php namespace App\\\\Providers;\n\nuse Illuminate\\\\Support\\\\ServiceProvider;\n\nclass ${1:Name}ServiceProvider extends ServiceProvider\n{\n\tprotected $defer = ${2:true};\n\n\tpublic function boot()\n\t{\n\t\tview()->composer('view', function () {\n\t\t\t//\n\t\t});\n\t}\n\n\tpublic function register()\n\t{\n\t\t$this->app->singleton(${2:Implementation}::class, function ($app) {\n\t\t\treturn new ${2:Implementation}(config('${3:name}'));\n\t\t});\n\t}\n\n\tpublic function provides()\n\t{\n\t\treturn [${2:Implementation}::class];\n\t}\n\n}"
+
+  'Repository':
+    prefix: 'laravel:repository'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#f4645f">Laravel</span> Repository'
+    body: "<?php namespace App\\\\Repositories;\n\nuse App\\\\Contracts\\\\Repositories\\\\${1:Name}Repository as ${1:Name}Contract;\nuse App\\\\Models\\\\${2:Model};\n\nclass ${1:Name}Repository implements ${1:Name}Contract\n{\n\t/**\n\t* {@inheritdoc}\n\t*/\n\tpublic function recent()\n\t{\n\t\treturn ${2:Model}::orderBy('id', 'desc')->get();\n\t}\n\n\t$3\n }"
+
+  '_Log::error()':
+    prefix: '_Log::error'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#f4645f">Laravel</span> \\\\Log::error($var)'
+    body: "\\\\Log::error(${1});"
+
+  'Log::error()':
+    prefix: 'Log::error'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#f4645f">Laravel</span> Log::error($var)'
+    body: "Log::error(${1});"

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assis Cunha Machado & Nolasco</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+        <script src="js/areadeatucao.js" charset="utf-8"></script>
+
+        <!-- <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>-->
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $("#ActionPessoaFisica").click(function () {
+                    $("#conteudoPessoaFisica").slideDown(400);
+                    $("#conteudoPessoaJuridica").slideUp(0);
+                });
+                $("#ActionPessoaJuridica").click(function () {
+                    $("#conteudoPessoaJuridica").slideDown(600);
+                    $("#conteudoPessoaFisica").slideUp(0);
+                });
+            });
+
+
+        </script>
+    </head>
+
+    <body>
+
+        <nav id="navbar" class="navbar  navbar-inverse  navbar-fixed-top ">
+            <div class="col-md-3 col-sm-3 nav navbar-nav  navbar-left">
+                <img class="img-responsive " id="logo" src="./img/logo01.png" alt="">
+            </div>
+            <div class="col-md-9 col-sm-9 container-fluid" style="margin-bottom:0px;background-color:red;">
+
+                <p class="text-right hidden-sm " id="colorFont">contato@acmadvogados.com.br | (61) 3022 - 0251</p>
+            </div>
+            <div class="container-fluid">
+                <div class="col-md-2 navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div  class="collapse navbar-collapse navbar-right  " id="myNavbar">
+
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li><a id="colorFont" href="#">Home</a>
+                        </li>
+                        <li><a id="colorFont" href="#escritorio">O escritorio</a>
+                        </li>
+                        <li><a id="colorFont" href="#equipe">A equipe</a>
+                        </li>
+                        <li><a id="colorFont" href="#parceiros">Parceiros e Clientes</a>
+                        </li>
+                        <li><a id="colorFont" href="#atuacao">Área de Atuação</a>
+                        </li>
+                        <li><a id="colorFont" href="#notícia">Notícia</a>
+                        </li>
+                        <li><a id="colorFont" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- fim collapse -->
+            </div>
+            <!-- fim container-fluid -->
+        </nav>
+        <!-- fim navbar -->
+
+
+
+
+
+
+
+
+        <section id="home">
+
+            <div id="estatua" >
+                <!-- estatua -->
+                <img class="img-responsive" src="./img/02.png" alt="estatua">
+            </div>
+            <!-- estatua -->
+
+            <!-- carousel -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./img/010.png" alt="" width="100%">
+                    </div>
+                    <div class="item">
+                        <img src="./img/010.png" alt="" width="100%">
+                        <div class="carousel-caption">
+                            <!--    <h3>New York</h3>
+                        <p>We love the Big Apple!</p>-->
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Control box -->
+                <!-- <div class="control-box">
+                  <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+                  <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+                </div> -->
+                <!-- /.control-box -->
+
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="container-fluid col-md-12 col-sm-12" id="delimitadorBottom"></div>
+        </section>
+
+        <section id="escritorio" class="colorF1">
+
+            <div class="container-fluid">
+                <!-- O escritorio -->
+                <div class="row">
+                    <div class="container">
+                        <h1 id="colorFont">O ESCRITORIO</h1>
+                    </div>
+                    <div class="container-fluid col-md-12 col-sm-12" height="25px" id="submenu"></div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8  " id="textoEscritorio">
+                        <p>O escritório Assis,Cunha,Moura & Nolasco Advogados Associadosatua em todo o Distrito Federal abrangendo as diversas áreas do direito que caminham lado a lado com as de mandas e necessidades empresariais, sejam elas trabalhistas, contratuais,
+                            consumeristas, tributárias, licitatóriasoupenais.</p>
+                        <p>Fundado em 2012, o escritório se consolida através de uma assessoria jurídica preventiva voltada para empresas dos mais variados ramos, buscando orientar e adequar suas atividades com o intuito de se evitar a o máximo a ocorrência de demandas
+                            judiciais que possam trazer prejuízos à saúde da empresa.
+                        </p>
+                        <p>O escritório Assis,Cunha,Moura & Nolasco Advogados Associadosatua em todo o Distrito Federal abrangendo as diversas áreas do direito que caminham lado a lado com as de mandas e necessidades empresariais, sejam elas trabalhistas, contratuais,
+                            consumeristas, tributárias, licitatóriasoupenais.</p>
+                        <p>Fundado em 2012, o escritório se consolida através de uma assessoria jurídica preventiva voltada para empresas dos mais variados ramos, buscando orientar e adequar suas atividades com o intuito de se evitar a o máximo a ocorrência de demandas
+                            judiciais que possam trazer prejuízos à saúde da empresa.
+                        </p>
+                    </div>
+                    <div class="container-fluid col-md-12 col-sm-12" id="delimitadorBottom"></div>
+                </div>
+                <!-- fim row -->
+            </div>
+            <!-- fim O escritorio -->
+        </section>
+
+        <section id="equipe" class="colorF2">
+            <div class="container-fluid">
+
+                <!-- A EQUIPE -->
+                <div class="row">
+                    <div class="container">
+                        <h1 id="colorFont">A EQUIPE</h1>
+                    </div>
+                    <div class="container-fluid col-md-7  col-s m-5 " id="delimitadorTop"></div>
+                    <div class="col-md-12 col-sm-12">
+                        <!-- sem essa linha o carrousel da equipe nao alinha ao centro -->
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <!-- alinha ao centro o conteudo da equipe -->
+                    </div>
+                    <div class="col-md-8 col-sm-8 container">
+                        <!-- carousel -->
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicadores -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner ">
+                                <div class="item active">
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive " src="./img/homem1.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>João Paulo Milhomens Moura</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF 37.966</p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem2.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>Luiz Henrique Lages Nolasco</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF 39.565</p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem3.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>Fernando Luiz <br>Cunha</strong>
+                                        </p>
+
+                                        <p id="textEquipe">OAB/DF 42.795</p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem4.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>Francisco Assis de Sousa Júnior</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF 47.120</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem3.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>San Francisco  Francisco</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF 47.120</p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem4.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>San Francisco  Francisco</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF </p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem1.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>San Francisco  Francisco</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF </p>
+                                    </div>
+                                    <div  class="col-md-3 col-sm-3" style="display:inline">
+                                        <a href="#">
+                                            <img id="apreEquipe" class="img-circle img-responsive" src="./img/homem2.png" alt="" width="100%">
+                                        </a>
+                                        <p id="textEquipe" class=""><strong>San Francisco  Francisco</strong>
+                                        </p>
+                                        <p id="textEquipe">OAB/DF </p>
+                                    </div>
+                                </div>
+                                <!-- fim item -->
+                            </div>
+                            <!-- fim carousel-inner -->
+                        </div>
+                        <!-- fim carousel -->
+
+                        <!-- <div class="col-md-12 col-sm-12"></div>
+                    ################ Controlador do carousel ################
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                    </a> -->
+                        <div class="col-md-8">
+
+                        </div>
+                        <div class="col-md-4" id="hahas">
+                            <a href="#"><H4><strong>CONHEÇA TODA A EQUIPE </strong> <span class="glyphicon glyphicon-menu-right"></span></H4></a>
+                        </div>
+                        <div class="col-md-4" id="hahas">
+                            <a href="#"><H4><strong>CONHEÇA TODA A EQUIPE </strong> <span class="glyphicon glyphicon-triangle-right"></span></H4></a>
+                        </div>
+                        <div class="col-md-4" id="hahas">
+                            <a href="#"><H4><strong>CONHEÇA TODA A EQUIPE </strong> <span class="glyphicon glyphicon-chevron-right"></span></H4></a>
+                        </div>
+                    </div>
+                    <!-- fim container -->
+
+                    <div class="container-fluid col-md-12 col-sm-12" id="delimitadorBottom"></div>
+                </div>
+                <!-- fim row -->
+            </div>
+            <!-- fim A EQUIPE -->
+        </section>
+
+        <section id="parceiros" class="colorF1">
+
+            <div class="container-fluid">
+                <!-- PARCEIROS -->
+                <div class="row">
+                    <div class="container">
+                        <h1 id="colorFont">PARCEIROS</h1>
+                    </div>
+                    <div class="container-fluid col-md-7  col-sm-5 " id="delimitadorTop"></div>
+                    <div class="col-md-12 col-sm-12">
+                        <!-- sem essa linha o carrousel da equipe nao alinha ao centro -->
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <!-- alinha ao centro o conteudo da equipe -->
+                    </div>
+                    <div class="col-md-8 col-sm-8 container">
+
+
+                        <div class="col-md-3" style="display:inline">
+                            <a href="#">
+                                <img class="img-thumbnail img-responsive" src="./img/p1.png" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="col-md-3" style="display:inline">
+                            <a href="#">
+                                <img class="img-thumbnail img-responsive" src="./img/p2.png" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="col-md-3" style="display:inline">
+                            <a href="#">
+                                <img class="img-thumbnail img-responsive" src="./img/p5.png" alt="" width="100%">
+                            </a>
+                        </div>
+                        <div class="col-md-3" style="display:inline">
+                            <a href="#">
+                                <img class="img-thumbnail img-responsive" src="./img/p4.png" alt="" width="100%">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="container-fluid col-md-12  col-sm-12 " id="delimitadorBottom"></div>
+                </div>
+                <!-- fim row -->
+            </div>
+            <!-- fim PARCEIROS -->
+        </section>
+
+
+        <section id="atuacao" class="colorF2">
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="container">
+                        <h1 id="colorFont" >AREA DE ATUAÇÃO </h1>
+                    </div>
+
+                    <div class="container-fluid col-md-7" id="delimitadorTop"></div>
+
+                    <div id="imgbck"  class="col-md-12">
+
+                        <div class="col-md-2 col-sm-2"></div>
+
+                        <div id="" class="col-md-8 col-sm-8 ">
+
+                            <div id="tesths" class="col-md-4 ">
+                                <nav id="" class="navbar  navbar-default  ">
+                                    <div class="container-fluid">
+                                        <div  class="collapse navbar-collapse" id="myNavbar">
+                                            <ul class="nav navbar-nav " >
+                                                <li id="ActionPessoaJuridica"  style="cursor:pointer;">Pessoa juridica </li>
+                                                <li><span>|</span></li>
+                                                <li id="ActionPessoaFisica" style="cursor:pointer;">Pessoa fisica</li>
+                                            </ul>
+                                        </div>
+                                        <!-- fim collapse navbar-collapse navbar-right   -->
+                                    </div>
+                                    <!-- fim container-fluid -->
+                                </nav>
+                                <!-- fim navbar -->
+                            </div>
+                            <div class="col-md-12">
+
+                            </div>
+                            <div  class="col-md-4 col-sm-4 container" id="conteudoPessoaJuridica">
+
+                                <ul>
+                                    <li class="list-item">Direito Civil</li>
+                                    <li class="list-unstyled">- Família e Sucessões</li>
+                                    <li class="list-unstyled">- Contratos</li>
+                                    <li class="list-unstyled">- Consumidor</li>
+                                    <li class="list-unstyled">- Indenização e Cobranças</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">DireitodoTrabalho</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">Direito Penal</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">Direito Previdenciário</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">Direito Tributário</li>
+                                </ul>
+                            </div>
+
+                            <div  class="col-md-4 col-sm-4 container" id="conteudoPessoaFisica" style="display:none;" style="">
+
+                                <ul>
+                                    <li style="color:red;" class="list-item">Direito Civil</li>
+                                    <li class="list-unstyled">- Família e Sucessões</li>
+                                    <li class="list-unstyled">- Contratos</li>
+                                    <li class="list-unstyled">- Consumidor</li>
+                                    <li class="list-unstyled">- Indenização e Cobranças</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">DireitodoTrabalho</li>
+                                </ul>
+                                <ul>
+                                    <li class="list-item">Direito Penal</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- imgbck -->
+                    <div class="container-fluid col-md-12  col-sm-12 "  id="delimitadorBottom"></div>
+
+                </div>
+                <!-- fim container-fluid -->
+            </div>
+            <!-- fim row -->
+
+        </section>
+
+
+
+
+        <section id="contato" class="colorF1">
+
+            <div class="container-fluid">
+                <!-- CONTATO  -->
+                <div class="row">
+                    <div class="container">
+                        <h1 id="colorFont">CONTATO</h1>
+                    </div>
+                    <div class="container-fluid col-md-7  col-sm-5 " id="delimitadorTop"></div>
+                    <!-- mapa -->
+                    <div class="container-fluid col-md-12  col-sm-12 " id="mapa"></div>
+                    <iframe src="<!--https://www. -->google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.7420545436507!2d-47.97887468545766!3d-15.870148829049937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2e5c876e0861%3A0x5fd875cabc589761!2sAssis%2C+Cunha%2C+Moura+%26+Nolasco+Advogados+Associados!5e0!3m2!1spt-BR!2sbr!4v1513569950814"
+                            width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <div class="container-fluid col-md-12  col-sm-12 " id="mapa"></div>
+                    <!-- fim mapa -->
+
+                    <div class="col-md-12 col-sm-12">
+                        <br>
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>ENDEREÇO:</strong>
+                        </p>
+                        <p>Setor de Indústria Bernardo Sayão
+                            <br>Quadra 03,Conjunto C, Lote 21, 2ºPavimento,
+                            <br>Núcleo Bandeirante - Brasília - DF
+                            <br>CEP:71.736-303
+                        </p>
+                        <br>
+                        <p><strong>TELEFONES:</strong>
+                        </p>
+                        <p>(61)3022-0251
+                            <br>(61)3326-2204
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="" placeholder="Ex: Jorge ">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="" placeholder="Ex: jorge@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="assulto">Assulto</label>
+                            <input type="text" class="form-control" id="" placeholder="Ex: Contratos">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <!-- <input type="textarea" class="form-control" id="" placeholder=""> -->
+                            <form>
+                                <textarea placeholder="Some text..."></textarea>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="container-fluid col-md-12  col-sm-12 "  id="delimitadorBottom"></div>
+                </div>
+                <!-- fim row -->
+            </div>
+            <!-- CONTATO  -->
+        </section>
+
+        <footer class="col-md-12 colorF1 text-center">
+
+            <div class="col-md-5" >  </div>
+            <div class="col-md-2">
+
+                <p>Desenvolvido por:</p>
+                <img class="img-responsive"src="./img/Technorium-logo-01.png" alt="">
+
+            </div>
+
+        </footer>
+
+    </body>
+</html>

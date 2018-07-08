@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://localhost/tcc/view/formCadastroCliente.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title></title>
+        <link rel="stylesheet" href="./formCadastroCliente.php_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./formCadastroCliente.php_files/master.css">
+        <script src="./formCadastroCliente.php_files/jquery-3.2.1.min.js"></script>
+        <script src="./formCadastroCliente.php_files/bootstrap.min.js"></script>
+
+        <style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+            .en-markup-crop-options {
+                top: 18px !important;
+                left: 50% !important;
+                margin-left: -100px !important;
+                width: 200px !important;
+                border: 2px rgba(255,255,255,.38) solid !important;
+                border-radius: 4px !important;
+            }
+
+            .en-markup-crop-options div div:first-of-type {
+                margin-left: 0px !important;
+            }
+        </style></head>
+    <body>
+        <div class="container  col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-3">
+                <!--responsavel pelo alinhamento ao centro do
+                  form definido para ocupar 3 posicoes na grid do lado direito--->
+            </div>
+            <form class="col-md-6" action="http://localhost/tcc/controller/salvarCadastroClienteController.php" method="post">
+
+
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+                <div class="form-group">
+                    <label for="cpf">Cpf</label>
+                    <input type="text" class="form-control" name="cpf" id="cpf" placeholder="Digite seu CPF">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo</label>
+                    <div class="radio-inline">
+                        <label>
+                            <input type="radio" name="sexo" value="M">
+                            Masculino
+                        </label>
+                    </div>
+                    <div class="radio-inline">
+                        <label>
+                            <input type="radio" name="sexo" value="F">
+                            Feminino
+                        </label>
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="dataNasc">Data de nascimento</label>
+                    <input type="date" class="form-control" name="dataNasc" id="dataNasc">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+                <div class="row ">
+
+                    <div class="col-xs-10">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" class="form-control" name="endereco" id="endereco" placeholder="Digite seu endereço completo">
+                        <!-- <p class="help-block">Help text here.</p>-->
+                    </div>
+                    <div class="col-xs-2">
+                        <label for="casa">Casa</label>
+                        <input type="casa" class="form-control" name="casa" id="casa" placeholder="Nº">
+                    </div>
+                    <!-- <p class="help-block">Help text here.</p>-->
+
+                    <div id="top10px" class="form-group col-xs-9">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" class="form-control" name="complemento" id="complemento" placeholder="Digite complemento se necessário">
+                        <!-- <p class="help-block">Help text here.</p>-->
+                    </div>
+
+                    <div id="top10px" class="form-group col-xs-3">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" name="cep" id="cep" placeholder="Digite o CEP">
+                        <!-- <p class="help-block">Help text here.</p>-->
+                    </div>
+                </div><!-- fim row -->
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu email">
+                    <!-- <p class="help-block">Help text here.</p>-->
+
+                </div>
+                <div class="form-group">
+                    <label for="confirmeEmail">Comfirme seu email</label>
+                    <input type="email" class="form-control" name="confirmeEmail" id="confirmeEmail" placeholder="Confirme seu email">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" name="senha" id="senha" placeholder="Digite sua senha">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmeSenha">Comfirme sua senha</label>
+                    <input type="password" class="form-control" name="confirmeSenha" id="confirmeSenha" placeholder="Confirme sua senha">
+                    <!-- <p class="help-block">Help text here.</p>-->
+                </div>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+
+            </form>
+            <div class="col-md-3">
+                <!--responsavel pelo alinhamento ao centro do
+                  form definido para ocupar 3 posicoes na grid do lado direito--->
+            </div>
+
+
+
+        </div><!-- fim div container-->
+
+
+
+
+    </body></html>

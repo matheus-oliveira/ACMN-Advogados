@@ -1,0 +1,88 @@
+'.text.html':
+  'editor':
+    'completions' : [
+      # Here add the snippets completions
+
+      # Alerts completions
+      'bs3-alert'
+      'bs3-alert:danger'
+      'bs3-alert:info'
+      'bs3-alert:success'
+      'bs3-alert:warning'
+
+      # Badges completions
+      'bs3-badge'
+
+      # Breadcrumbs completions
+      'bs3-breadcrumbs'
+
+      # Buttons Completions
+      'bs3-block-button:danger'
+      'bs3-block-button:default'
+      'bs3-block-button:disabled'
+      'bs3-block-button:info'
+      'bs3-block-button:primary'
+      'bs3-block-button:success'
+      'bs3-block-button:warning'
+      'bs3-block-button'
+
+      # Standar Buttons
+      'bs3-button:info'
+      'bs3-button:danger'
+      'bs3-button:default'
+      'bs3-button:disabled'
+      'bs3-button:primary'
+      'bs3-button:success'
+      'bs3-button:warning'
+      'bs3-button'
+
+      # Button Group
+      'bs3-group'
+      'bs3-group:vertical'
+
+      # Button Toolbar
+      'bs3-toolbar'
+
+      # Lg Buttons
+      'bs3-lg-button:danger'
+      'bs3-lg-button:disabled'
+      'bs3-lg-button:default'
+      'bs3-lg-button:info'
+      'bs3-lg-button:primary'
+      'bs3-lg-button:warning'
+      'bs3-lg-button:success'
+      'bs3-lg-button'
+
+      # HTML5 Template
+      'bs3-template:html5'
+
+      # Carousel
+      'bs3-carousel'
+
+      # CDN
+      'bs3-cdn'
+      'bs3-cdn:css'
+      'bs3-cdn:js'
+
+      # Clearfix
+      'bs3-clearfix'
+
+      # Forms
+      'bs3-form'
+      'bs3-form:inline'
+      'bs3-form:horizontal'
+      'bs3-form:label'
+
+      # Navbar
+      'bs3-navbar'
+      'bs3-navbar:responsive'
+
+      #Grid
+      'bs3-row'
+      'bs3-container'
+      'bs3-col'
+
+      #Tables
+      'bs3-table'
+      'bs3-table:responsive'
+    ]

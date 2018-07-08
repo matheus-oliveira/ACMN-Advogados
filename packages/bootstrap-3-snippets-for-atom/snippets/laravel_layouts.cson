@@ -1,0 +1,34 @@
+'.text.html.php.blade':
+  'Layout':
+    prefix: 'lara:layout'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#f4645f">Laravel</span> Layout'
+    body: """<!DOCTYPE html>
+        <html lang="{{ app()->getLocale() }}">
+          <head>@if (App::environment() === 'production' && env('ANALYTICS_CODE') != '')
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107185797-1"></script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)};
+                gtag('js', new Date());
+                gtag('config', {{ env('ANALYTICS_CODE') }});
+                </script>
+            @endif
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>@yield('title', config('app.name'))</title>
+            <meta name="csrf-token" content="{{ csrf_token() }}">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="{{ asset('css/${1:app}.css')}}">
+            @stack('stylesheet')
+          </head>
+          <body id="web-app">
+            $2@includeif('web.nav.header')
+            @yield('content')
+            @includeif('web.nav.footer')
+            <div class="overlay"></div>
+            <script src="{{ asset('js/${1:app}.js') }}" charset="utf-8"></script>
+            @stack('scripts')
+          </body>
+        </html>
+    """

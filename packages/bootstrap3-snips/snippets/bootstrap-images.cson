@@ -1,0 +1,5 @@
+'.text.html, *.php, *.jsx, *.hbs':
+
+    'Bootstrap Image':
+        'prefix': 'bs-img'
+        'body': '<img class="img-responsive${1: img-rounded}${2: img-circle}${3: img-thumbnail}" src="$4" alt="$5" />'

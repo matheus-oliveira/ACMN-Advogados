@@ -1,0 +1,49 @@
+'.text.html, *.php, *.jsx, *.hbs':
+
+    'Bootstrap Form':
+        'prefix': 'bs-form'
+        'body': """<form class="${1:form-inline}${2: form-horizontal}" method="${3:GET}" action="${4:/}">
+            $5
+        </form>"""
+
+    'Bootstrap Form Group':
+        'prefix': 'bs-form-group'
+        'body': """<div class="form-group${1: has-feedback}${2: has-success}${3: has-warning}${4: has-error}">
+            $5
+        </div>"""
+
+    'Bootstrap Generic Input With Label':
+        'prefix': 'bs-input'
+        'body': """<label for="$1"${2: class="sr-only"}>$3</label>
+            <input type="$4" class="form-control" id="$5" name="$6" placeholder="$7"${8: disabled}${9: readonly}
+                ${10:aria-labelled-by="$11"}${12: aria-described-by="$13"}${14: title="$15"}${16: aria-label="$17"} />"""
+
+    'Bootstrap Text Input':
+        'prefix': 'bs-input-text'
+        'body': """<label for="$1"${2: class="sr-only"}>$3</label>
+            <input type="text" class="form-control" id="$4" name="$5" placeholder="$6"${7: disabled}${8: readonly}
+                ${9:aria-labelled-by="$10"}${11: aria-described-by="$12"}${13: title="$14"}${15: aria-label="$16"} />"""
+
+    'Bootstrap Text Input Minimal':
+        'prefix': 'bs-input-text-min'
+        'body': '<input type="text" class="form-control" placeholder="$1"${2: disabled}${3: readonly}${4: aria-label="$5"} />'
+
+    'Bootstrap Email Input':
+        'prefix': 'bs-input-email'
+        'body': """<label for="$1"${2: class="sr-only"}>$3</label>
+            <input type="email" class="form-control" id="$4" name="$5" placeholder="$6"${7: disabled}${8: readonly}
+                ${9:aria-labelled-by="$10"}${11: aria-described-by="$12"}${13: title="$14"}${15: aria-label="$16"} />"""
+
+    'Bootstrap Email Input Minimal':
+        'prefix': 'bs-input-email-min'
+        'body': '<input type="email" class="form-control" placeholder="$1"${2: disabled}${3: readonly}${4: aria-label="$5"} />'
+
+    'Bootstrap Password Input':
+        'prefix': 'bs-input-pass'
+        'body': """<label for="$1"${2: class="sr-only"}>$3</label>
+            <input type="password" class="form-control" id="$4" name="$5" placeholder="$6"${7: disabled}${8: readonly}
+                ${9:aria-labelled-by="$10"}${11: aria-described-by="$12"}${13: title="$14"}${15: aria-label="$16"} />"""
+
+    'Bootstrap Password Input Minimal':
+        'prefix': 'bs-input-pass-min'
+        'body': '<input type="password" class="form-control" placeholder="$1"${2: disabled}${3: readonly}${4: aria-label="$5"} />'

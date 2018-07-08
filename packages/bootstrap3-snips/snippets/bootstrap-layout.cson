@@ -1,0 +1,49 @@
+'.text.html, *.php, *.jsx, *.hbs':
+
+    'Container':
+        'prefix': 'bs-container'
+        'body': """<div class="container">
+            $1
+        </div>"""
+
+    'Fluid Container':
+        'prefix': 'bs-container-fluid'
+        'body': """<div class="container-fluid">
+            $1
+        </div>"""
+
+    'Row':
+        'prefix': 'bs-row'
+        'body': """<div class="row">
+            $1
+        </div>"""
+
+    'Column':
+        'prefix': 'bs-col'
+        'body': """<div class="col-${1:md}-${2: }${3: col-${4:md}-offset-$5}">
+            $6
+        </div>"""
+
+    'Column XS':
+        'prefix': 'bs-col-xs'
+        'body': """<div class="col-xs-${1: }${2: col-xs-offset-$3}">
+            $4
+        </div>"""
+
+    'Column SM':
+        'prefix': 'bs-col-sm'
+        'body': """<div class="col-sm-${1: }${2: col-sm-offset-$3}">
+            $4
+        </div>"""
+
+    'Column MD':
+        'prefix': 'bs-col-md'
+        'body': """<div class="col-md-${1: }${2: col-md-offset-$3}">
+            $4
+        </div>"""
+
+    'Column LG':
+        'prefix': 'bs-col-lg'
+        'body': """<div class="col-lg-${1: }${2: col-lg-offset-$3}">
+            $4
+        </div>"""

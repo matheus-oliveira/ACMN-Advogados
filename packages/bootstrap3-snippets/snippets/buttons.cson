@@ -1,0 +1,158 @@
+'.text.html':
+
+##  Block Buttons
+  'Block Button Danger':
+    'prefix': 'bs3-block-button:danger'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-danger">${4:button}</${1:button}>
+    """
+  'Block Button Default':
+    'prefix': 'bs3-block-button:default'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-default">${4:button}</${1:button}>
+    """
+  'Block Button Disabled':
+    'prefix': 'bs3-block-button:disabled'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-{2:default} disabled">${4:button}</${1:button}>
+    """
+  'Block Button Info':
+    'prefix': 'bs3-block-button:info'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-info">${4:button}</${1:button}>
+    """
+  'Block Button Primary':
+    'prefix': 'bs3-block-button:primary'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-primary">${4:button}</${1:button}>
+    """
+  'Block Button Success':
+    'prefix': 'bs3-block-button:success'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-success">${4:button}</${1:button}>
+    """
+  'Block Button Warning':
+    'prefix': 'bs3-block-button:warning'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-warning">${4:button}</${1:button}>
+    """
+  'Block Button':
+    'prefix': 'bs3-block-button'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:large} btn-block btn-default">${4:button}</${1:button}>
+    """
+
+##  Standar Buttons
+  'Button Danger':
+    'prefix': 'bs3-button:danger'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-danger">${3:button}</${1:button}>
+    """
+  'Button Default':
+    'prefix': 'bs3-button:default'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-default">${3:button}</${1:button}>
+    """
+  'Button Disabled':
+    'prefix': 'bs3-button:disabled'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-${3:primary} disabled">${4:button}</${1:button}>
+    """
+  'Button Info':
+    'prefix': 'bs3-button:info'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-info">${3:button}</${1:button}>
+    """
+  'Button Primary':
+    'prefix': 'bs3-button:primary'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-primary">${3:button}</${1:button}>
+    """
+  'Button Success':
+    'prefix': 'bs3-button:success'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-success">${3:button}</${1:button}>
+    """
+  'Button Warning':
+    'prefix': 'bs3-button:warning'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-warning">${3:button}</${1:button}>
+    """
+  'Button':
+    'prefix': 'bs3-button'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-default">${3:button}</${1:button}>
+    """
+
+##  Button Group
+  'Button Group':
+    'prefix': 'bs3-group'
+    'body': """
+      <div class="btn-group">
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Left</${1:button}>
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}>
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Right</${1:button}>
+      </div>
+    """
+  'Button Group Vertical':
+    'prefix': 'bs3-group:vertical'
+    'body': """
+      <div class="btn-group-vertical">
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Top</${1:button}>
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Middle</${1:button}>
+  	   <${1:button} ${2:type="button"} class="btn btn-default">Bottom</${1:button}>
+      </div>
+    """
+
+##  Button Toolbar
+  'Button Toolbar':
+    'prefix': 'bs3-toolbar'
+    'body': """
+      <div class="btn-toolbar">
+	     <div class="btn-group"></div>
+       <div class="btn-group"></div>
+	     <div class="btn-group"></div>
+      </div>
+    """
+
+##  lg Buttons
+  'Lg Button Danger':
+    'prefix': 'bs3-lg-button:danger'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-danger">${3:button}</${1:button}>
+    """
+  'Lg Button Default':
+    'prefix': 'bs3-lg-button:default'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-default">${3:button}</${1:button}>
+    """
+  'Lg Button Disabled':
+    'prefix': 'bs3-lg-button:disabled'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-${3:default} disabled">${4:button}</${1:button}>
+    """
+  'Lg Button Info':
+    'prefix': 'bs3-lg-button:info'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-info">${3:button}</${1:button}>
+    """
+  'Lg Button Primary':
+    'prefix': 'bs3-lg-button:primary'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-primary">${3:button}</${1:button}>
+    """
+  'Lg Button Success':
+    'prefix': 'bs3-lg-button:success'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-success">${3:button}</${1:button}>
+    """
+  'Lg Button Warning':
+    'prefix': 'bs3-lg-button:warning'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-warning">${3:button}</${1:button}>
+    """
+  'Lg Button':
+    'prefix': 'bs3-lg-button'
+    'body': """
+      <${1:button} ${2:type="button"} class="btn btn-lg btn-default">${3:button}</${1:button}>
+    """

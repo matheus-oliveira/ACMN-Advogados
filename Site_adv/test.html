@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="generator" content="Google Web Designer 2.0.2.1128">
+
+        <title>Assis Cunha Machado & Nolasco</title>
+
+        <link rel="stylesheet" href="./css/master.css">
+
+        <!-- <link rel="stylesheet" href="./../css/bootstrap.min.css" /> -->
+        <!-- <script src="jquery-3.2.1.min.js"></script> -->
+        <!-- <script src="bootstrap.min.js"></script> -->
+        <script src="./js/areadeatucao.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                $("#ActionPessoaFisica").click(function () {
+                    $("#conteudoPessoaFisica").slideDown(400);
+                    $("#conteudoPessoaJuridica").slideUp(0);
+                });
+                $("#ActionPessoaJuridica").click(function () {
+                    $("#conteudoPessoaJuridica").slideDown(600);
+                    $("#conteudoPessoaFisica").slideUp(0);
+                });
+            });
+
+
+        </script>
+
+        <style media="screen">
+
+            .logo {padding-top:24px; }
+
+        </style>
+
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header class="header">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header"><a href="index.html" class="navbar-brand"><img src="img/logo.png" alt="Italiano" width="100"></a>
+                        <div class="navbar-buttons">
+                            <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="fa fa-align-justify"></i></button>
+                        </div>
+                    </div>
+                    <div id="navigation" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a id="colorFontMenu" href="#home">Home</a></li>
+                            <li><a id="colorFontMenu" href="#escritorio">O escritorio</a></li>
+                            <li><a id="colorFontMenu" href="#equipe">A equipe</a></li>
+                            <li><a id="colorFontMenu" href="#parceiros">Parceiros e Clientes</a></li>
+                            <li><a id="colorFontMenu" href="#atuacao">Área de Atuação</a></li>
+                            <li><a id="colorFontMenu" href="#notícia">Notícia</a></li>
+                            <li><a id="colorFontMenu" href="#contato">Contato</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header><!-- End Navbar -->
+        <footer class="col-md-12 colorF1 text-center">
+
+            <div class="col-md-4" >  </div>
+            <div class="col-md-2">
+
+                <p>Desenvolvido por:</p>
+
+            </div>
+            <div class="col-md-2">
+
+                <img class="img-responsive"src="./img/Technorium-logo-01.png" alt="">
+
+            </div>
+
+
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>

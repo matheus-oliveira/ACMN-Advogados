@@ -1,0 +1,39 @@
+'.text.html.php.blade, .text.html, .text.html.php':
+
+  'Bulma - CDN Starter template':
+    prefix: 'bulma:!'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#00d1b2">Bulma.io</span> CDN Starter template'
+    body: """
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>${1:Hello World!}</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
+        </head>
+        <body>
+        <section class="section">
+          <div class="container">
+            <h1 class="title">
+              Hello World
+            </h1>
+            <p class="subtitle">
+              My first website with <strong>Bulma</strong>!
+            </p>
+          </div>
+        </section>
+        </body>
+      </html>
+    """
+
+  'Bulma - CDN Stylesheets + font-awesome (only)':
+    prefix: 'bulma:cdn-css'
+    leftLabelHTML: '<span style="color:#1B81B6">Ⓢ</span>'
+    rightLabelHTML: '<span style="color:#00d1b2">Bulma.io</span> CDN import - its CSS'
+    body: """
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.min.css">
+    """

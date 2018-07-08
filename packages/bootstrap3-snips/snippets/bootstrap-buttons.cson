@@ -1,0 +1,58 @@
+'.text.html, *.php, *.jsx, *.hbs':
+
+    'Default Button, a white button with black text':
+        'prefix': 'bs-button-default'
+        'body': '<a class="btn btn-default"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Primary Button, a blue button with white text':
+        'prefix': 'bs-button-primary'
+        'body': '<a class="btn btn-primary"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Success Button, a green button with white text':
+        'prefix': 'bs-button-success'
+        'body': '<a class="btn btn-success"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Info Button, a cyan button with white text':
+        'prefix': 'bs-button-info'
+        'body': '<a class="btn btn-info"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Warning Button, an orange button with white text':
+        'prefix': 'bs-button-warning'
+        'body': '<a class="btn btn-warning"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Danger Button, a red button with white text':
+        'prefix': 'bs-button-danger'
+        'body': '<a class="btn btn-danger"${1: href="${2:#}"} role="button">$3</a>'
+
+    'Link Button, a button that looks like a link':
+        'prefix': 'bs-button-link'
+        'body': '<a class="btn btn-link"${1: href="${2:#}"} role="button">$3</a>'
+
+    # More options for buttons
+    'Default Button, customizable':
+        'prefix': 'bs-button-default-custom'
+        'body': '<a class="btn btn-default${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Primary Button, customizable':
+        'prefix': 'bs-button-primary-custom'
+        'body': '<a class="btn btn-primary${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Success Button, customizable':
+        'prefix': 'bs-button-success-custom'
+        'body': '<a class="btn btn-success${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Info Button, customizable':
+        'prefix': 'bs-button-info-custom'
+        'body': '<a class="btn btn-info${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Warning Button, customizable':
+        'prefix': 'bs-button-warning-custom'
+        'body': '<a class="btn btn-warning${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Danger Button, customizable':
+        'prefix': 'bs-button-danger-custom'
+        'body': '<a class="btn btn-danger${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'
+
+    'Link Button, customizable':
+        'prefix': 'bs-button-link-custom'
+        'body': '<a class="btn btn-link${1: btn-xs}${2: btn-sm}${3: btn-lg}${4: btn-block}${5: active}"${6: href="${7:#}"} role="button"${8: aria-pressed="true"}>$9</a>'

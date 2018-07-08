@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    font-family:"century gothic";
+    /*font-family: "", sans-serif;*/
+}
+
+#navbar {
+
+    margin-bottom: 0;
+    background-color: #dbdbdb;
+    border: 0px;
+    /*padding: 10px;*/
+    box-shadow: -5px 3px 25px #000000;
+
+}
+
+#home{
+    padding-top: 7%;
+}
+
+
+.colorF1{
+    background-color: #eeeced;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-color: red;*/
+}
+
+.colorF2{
+    background-color: #e2dbde;
+}
+
+#colorFont{
+    color: #8a6c45;
+}
+
+#colorFontMenu{
+    color: #8a6c45;
+    /*padding: 08 px;*/
+    /*font-size: 74 %;*/
+}
+
+#delimitadorTop{
+    background-color: #494949;
+    margin-bottom: 2%;
+    height: 5px;
+    position: relative;
+}
+
+#delimitador{
+    background-color: #494949;
+    /*margin-top: 4%;*/
+    height: 5px;
+    position: relative;
+}
+#logo{
+    padding: 2%;
+    /*width: 80%;*/
+}
+
+#bordaImg{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    border: solid #c2a57b;
+}
+
+
+h1{
+    /*padding-top: 7%;*/
+    padding-top:   9%;
+}
+
+div div a img{
+    padding-bottom: 20px;
+}
+
+footer{
+    padding: 10px;
+}
+
+footer div p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /*background: red;*/
+}
+
+/*.collapse{
+padding: 0px;
+}*/

@@ -1,0 +1,23 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "scope": null, "escapedName": null, "name": null, "rawSpec": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "spec": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "type": "local"
+      }, "/tmp/apm-install-dir-11816-3374-12r29cx.06sbiq9f6r"
+    ]
+  ], "_from": "../d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "_id": "bootstrap3-snips@0.1.1", "_inCache": true, "_location": "/bootstrap3-snips", "_phantomChildren": {}, "_requested": {
+    "raw": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "scope": null, "escapedName": null, "name": null, "rawSpec": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "spec": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "type": "local"
+  }, "_requiredBy": [
+    "#USER"
+  ], "_resolved": "file:../d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "_shasum": "e48734d5a3354d14a4d6f5b73527f752aa3ec6fd", "_shrinkwrap": null, "_spec": "/tmp/d-11816-3374-11wsm9f.z1i3z3erk9/package.tgz", "_where": "/tmp/apm-install-dir-11816-3374-12r29cx.06sbiq9f6r", "activationCommands": {
+    "atom-workspace": "bootstrap3-snips:toggle"
+  }, "bugs": {
+    "url": "https://github.com/ikcede/bootstrap3-snips/issues"
+  }, "dependencies": {}, "description": "Snippets for Twitter Bootstrap 3, with some accessibility features included.", "devDependencies": {}, "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }, "homepage": "https://github.com/ikcede/bootstrap3-snips#readme", "keywords": [
+    "snippets", "bootstrap", "bootstrap3", "aria", "accessibility"
+  ], "license": "MIT", "main": "./lib/bootstrap3-snips", "name": "bootstrap3-snips", "optionalDependencies": {}, "readme": "# Bootstrap Snippets package\n\nSnippets for Twitter Bootstrap 3, with some accessibility features included.\n\nSnippets start with \"bs-\"\n\nUse \"html5\" to initialize a document, \"scriptext\" for an external script, \"linkext\" for an external link.\n", "readmeFilename": "README.md", "repository": {
+    "type": "git", "url": "git+https://github.com/ikcede/bootstrap3-snips.git"
+  }, "version": "0.1.1"
+}

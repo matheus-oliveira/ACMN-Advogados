@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    font-family:"century gothic";
+    /*font-family: "", sans-serif;*/
+}
+
+
+#estatua{
+    /*padding-top: 4.5%;
+    padding-left:80%;
+    display:block ;*/
+    z-index: 1 ;
+    position: absolute;zz
+}
+
+/*#home{
+    padding-top: 5.5%;
+}*/
+
+#content{
+    padding-top: 4%;
+    padding-bottom:4%
+}
+
+.carousel-control{
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+}
+
+.carousel-control:active{
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+}
+
+.glyphicon:link{
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+}
+
+.colorF1{
+    background-color: #eeeced;
+    /*background-color: red;*/
+}
+
+.colorF2{
+    background-color: #e2dbde;
+}
+
+#colorFont{
+    color: #8a6c45;
+}
+
+#colorFontMenu{
+    color: #8a6c45;
+    /*padding: 08 px;*/
+    /*font-size: 74 %;*/
+}
+
+#delimitadorTop{
+    background-color: #494949;
+    /*margin-top: 4%;*/
+    height: 5px;
+    position: relative;
+}
+
+#delimitador{
+    background-color: #494949;
+    /*margin-top: 4%;*/
+    height: 5px;
+    position: relative;
+}
+
+#delimitadorBottom{
+    background-color: #494949;
+    height: 5px;
+    position: relative;
+    margin-top: 4%;
+    /*margin-bottom: 9%;*/
+
+}
+#textEquipe{
+    text-align:center;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: none;
+}
+
+#mapa{
+    border: solid #c2a57b;
+}
+
+#apreEquipe{
+    background: #c2a57b;
+}
+
+h1{
+    padding-top:   9%;
+
+}
+
+#botoes{
+    text-align: center;
+    background: #c2a57b;
+    border-radius: 25PX;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#botoes a:hover{
+    background: #c2a57b;
+    border-radius: 25PX;
+    color: #ffffff;
+
+}
+#botoes a:active{
+    background: #c2a57b;
+    border-radius: 25PX;
+    color: #ffffff;
+
+}
+#botoes a:visited{
+    background: #c2a57b;
+    border-radius: 25PX;
+    color: #ffffff;
+
+}
+#botoes a:link{
+    background: #c2a57b;
+    border-radius: 25PX;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.carousel-control{
+    background: rgba(102, 102, 102, 0) !important;
+    width: 3%;
+}
+
+#imgbck{
+    background: url('../img/fundo-atuacao.png') no-repeat center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 4%;
+    padding-bottom:4%;
+}
+
+footer{
+    padding: 10px;
+}
+
+footer div p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

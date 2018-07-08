@@ -1,0 +1,42 @@
+".text.html":
+
+  'Alert Block':
+    'prefix':'bs3-alert'
+    'body': """
+      <div class="alert">
+       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+       <strong>$1</strong>$2
+      </div>
+    """
+  'Alert Block Danger':
+    'prefix': 'bs3-alert:danger'
+    'body': """
+      <div class="alert alert-danger">
+	     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	     <strong>${1:Title!}</strong> ${2:Alert body ...}
+      </div>
+    """
+  'Alert Block Info':
+    'prefix': 'bs3-alert:info'
+    'body': """
+      <div class="alert alert-info">
+  	   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  	   <strong>${1:Title!}</strong> ${2:Alert body ...}
+      </div>
+    """
+  'Alert Block Success':
+    'prefix': 'bs3-alert:success'
+    'body': """
+      <div class="alert alert-success">
+  	   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  	   <strong>${1:Title!}</strong> ${2:Alert body ...}
+      </div>
+    """
+  'Alert Block Warning':
+    'prefix': 'bs3-alert:warning'
+    'body': """
+      <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <strong>${1:Title!}</strong> ${2:Alert body ...}
+      </div>
+    """

@@ -1,0 +1,82 @@
+'.text.html, *.php, *.jsx, *.hbs':
+
+    'Bootstrap Table Skeleton':
+        'prefix': 'bs-table'
+        'body': """<table class="table${1: table-striped}${2: table-bordered}${3: table-hover}${4: table-condensed}"
+            aria-labelled-by="$5" aria-described-by="$6">
+
+            <!-- Optional Caption -->
+            <caption>$7</caption>
+
+            <!-- Optional Colgroup -->
+            <colgroup span="" width="">
+                <col span="" width="">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>$8
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>"""
+
+    'Bootstrap Responsive Table Skeleton':
+        'prefix': 'bs-table-responsive'
+        'body': """<div class="table-responsive">
+            <table class="table${1: table-striped}${2: table-bordered}${3: table-hover}${4: table-condensed}"
+                aria-labelled-by="$5" aria-described-by="$6">
+
+                <!-- Optional Caption -->
+                <caption>$7</caption>
+
+                <!-- Optional Colgroup -->
+                <colgroup span="" width="">
+                    <col span="" width="">
+                </colgroup>
+
+                <thead>
+                    <tr>
+                        <th></th>
+                    </tr>$8
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>"""
+
+    'Bootstrap Minimal Table':
+        'prefix': 'bs-table-min'
+        'body': """<table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>"""

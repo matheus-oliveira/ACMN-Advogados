@@ -1,0 +1,19 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "scope": null, "escapedName": null, "name": null, "rawSpec": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "spec": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "type": "local"
+      }, "/tmp/apm-install-dir-117919-6739-glqc0n.ledd9uow29"
+    ]
+  ], "_from": "../d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "_id": "bootstrap-3-snippetset@0.0.6", "_inCache": true, "_installable": true, "_location": "/bootstrap-3-snippetset", "_phantomChildren": {}, "_requested": {
+    "raw": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "scope": null, "escapedName": null, "name": null, "rawSpec": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "spec": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "type": "local"
+  }, "_requiredBy": [
+    "#USER"
+  ], "_resolved": "file:../d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "_shasum": "dfb194f53f9b92ef8514f40d0cc463611b212eb5", "_shrinkwrap": null, "_spec": "/tmp/d-117919-6739-h4h8r9.581ggphkt9/package.tgz", "_where": "/tmp/apm-install-dir-117919-6739-glqc0n.ledd9uow29", "bugs": {
+    "url": "https://github.com/kevdotbadger/atom-bootstrap/issues"
+  }, "dependencies": {}, "description": "A 'Twitter Bootstrap 3' snippetset.", "devDependencies": {}, "engines": {
+    "atom": ">0.50.0"
+  }, "homepage": "https://github.com/kevdotbadger/atom-bootstrap#readme", "license": "MIT", "name": "bootstrap-3-snippetset", "optionalDependencies": {}, "readme": "Atom Bootstrap Snippet Set", "readmeFilename": "README.md", "repository": {
+    "type": "git", "url": "git+https://github.com/kevdotbadger/atom-bootstrap.git"
+  }, "version": "0.0.6"
+}

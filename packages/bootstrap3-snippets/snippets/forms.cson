@@ -1,0 +1,56 @@
+'.text.html':
+#   Horizontal Form
+  'Form Horizontal':
+    'prefix': 'bs3-form:horizontal'
+    'body': """
+      <form ${1:action="$2"} method="${3:POST}" class="form-horizontal" role="form">
+		    <div class="form-group">
+			   <legend>${4:Form title}</legend>
+		    </div>
+		    ${6:Body}
+		    <div class="form-group">
+			    <div class="col-sm-10 col-sm-offset-2">
+				   <button type="submit" class="btn btn-primary">${5:Submit}</button>
+			    </div>
+		    </div>
+      </form>
+    """
+#   Form inline
+  'Form Inline':
+    'prefix': 'bs3-form:inline'
+    'body': """
+      <form action="${1}" method="${2:POST}" class="form-inline" role="form">
+
+	     ${3:<div class="form-group">
+		     <label class="sr-only" for="">label</label>
+		     <input type="email" class="form-control" id="" placeholder="Input field">
+	      </div>}
+
+	     ${0}
+
+	     <button type="submit" class="btn btn-primary">${4:Submit}</button>
+      </form>
+    """
+#   Label for form
+  'Form Label':
+    'prefix': 'bs3-form:label'
+    'body': """
+      <label for="${1:input-id}" ${2:class="col-sm-2"}>${3}</label>
+    """
+#   Standar From
+  'Form':
+    'prefix': 'bs3-form'
+    'body': """
+      <form action="${1}" method="${2:POST}" role="form">
+	     <legend>${3:Form title}</legend>
+
+	     <div class="form-group">
+		    <label for="">${4:label}</label>
+		    <input type="text" class="form-control" id="" placeholder="Input field">
+	     </div>
+
+	     ${0}
+
+	     <button type="submit" class="btn btn-primary">${5:Submit}</button>
+      </form>
+    """

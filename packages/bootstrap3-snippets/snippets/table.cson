@@ -1,0 +1,36 @@
+'.text.html':
+  'Table Standar':
+    'prefix': 'bs3-table'
+    'body': """
+      <table class="table${1: table-hover}">
+	     <thead>
+		    <tr>
+			    <th></th>
+		    </tr>
+	     </thead>
+	     <tbody>
+		    <tr>
+			    <td></td>
+		    </tr>
+	     </tbody>
+      </table>
+    """
+
+  'Table Responsive':
+    'prefix': 'bs3-table:responsive'
+    'body': """
+      <div class="table-responsive">
+	     <table class="table${1: table-hover}">
+		    <thead>
+			    <tr>
+				    <th></th>
+			    </tr>
+		    </thead>
+		    <tbody>
+			    <tr>
+				    <td></td>
+			    </tr>
+		    </tbody>
+	     </table>
+      </div>
+    """
