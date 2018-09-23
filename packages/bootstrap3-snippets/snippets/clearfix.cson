@@ -1,8 +1,0 @@
-'.text.html':
-  'Clearfix':
-    'prefix': 'bs3-clearfix'
-    'body': """
-      <div class="clearfix">
-        $1
-      </div>
-    """

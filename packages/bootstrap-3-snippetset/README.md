@@ -1,1 +1,0 @@
-Atom Bootstrap Snippet Set
