@@ -35,32 +35,9 @@
 <body class="colorF1">
 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-        <a class="navbar-brand hidden-sm" href="#"><img src="./img/ACMN-Advogados.png" height="50px"alt=""></a>
-        <a class="navbar-brand visible-sm" href="#"><img src="./img/ACMN-Advogados.png" height="40px"alt=""></a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <!-- <li class="active"><a href="#contact">Contact</a></li> -->
-          <li class=""><a id="colorFont" href="#">Home</a></li>
-          <li><a id="colorFont" href="#escritorio">O escritorio</a></li>
-          <li><a id="colorFont" href="#equipe">A equipe</a></li>
-          <li><a id="colorFont" href="#parceiros">Parceiros e Clientes</a></li>
-          <li><a id="colorFont" href="#atuacao">Área de Atuação</a></li>
-          <!-- <li><a id="colorFont" href="#notícia">Notícia</a></li> -->
-          <li><a id="colorFont" href="#contato">Contato</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
-    </div>
-  </div>
+  <?php
+include_once './view/menu.php';
+   ?>
 
 
 
