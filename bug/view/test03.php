@@ -46,19 +46,19 @@
                 <div  class="collapse navbar-collapse navbar-right  " id="myNavbar">
 
                     <ul class="nav navbar-nav navbar-right" >
-                        <li><a id="colorFont" href="../index.html">Home</a>
+                        <li><a id="colorFont" href="../index.php">Home</a>
                         </li>
-                        <li><a id="colorFont" href="../index.html">O escritorio</a>
+                        <li><a id="colorFont" href="../index.php">O escritorio</a>
                         </li>
-                        <li><a id="colorFont" href="../index.html">A equipe</a>
+                        <li><a id="colorFont" href="../index.php">A equipe</a>
                         </li>
                         <li><a id="colorFont" href="#">Parceiros e Clientes</a>
                         </li>
-                        <li><a id="colorFont" href="../index.html">Área de Atuação</a>
+                        <li><a id="colorFont" href="../index.php">Área de Atuação</a>
                         </li>
-                        <li><a id="colorFont" href="../index.html">Notícia</a>
+                        <li><a id="colorFont" href="../index.php">Notícia</a>
                         </li>
-                        <li><a id="colorFont" href="../index.html">Contato</a>
+                        <li><a id="colorFont" href="../index.php">Contato</a>
                         </li>
                     </ul>
                 </div>

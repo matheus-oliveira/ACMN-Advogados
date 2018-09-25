@@ -39,19 +39,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-        <a class="navbar-brand hidden-sm" href="../index.html"><img src="../img/ACMN-Advogados.png" height="50px"alt=""></a>
-        <a class="navbar-brand visible-sm" href="../index.html"><img src="../img/ACMN-Advogados.png" height="40px"alt=""></a>
+        <a class="navbar-brand hidden-sm" href="../index.php"><img src="../img/ACMN-Advogados.png" height="50px"alt=""></a>
+        <a class="navbar-brand visible-sm" href="../index.php"><img src="../img/ACMN-Advogados.png" height="40px"alt=""></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <!-- <li class=" "><a href="#contact">Contact</a></li> -->
-          <li class=" "><a id="colorFont" href="../index.html">Home</a></li>
-          <li><a id="colorFont" href="../index.html#escritorio">O escritorio</a></li>
-          <li><a id="colorFont" href="../index.html#equipe">A equipe</a></li>
-          <li><a id="colorFont" href="../index.html#parceiros">Parceiros e Clientes</a></li>
-          <li><a id="colorFont" href="../index.html#atuacao">Área de Atuação</a></li>
-          <!-- <li><a id="colorFont" href="../index.html#notícia">Notícia</a></li> -->
-          <li><a id="colorFont" href="../index.html#contato">Contato</a></li>
+          <li class=" "><a id="colorFont" href="../index.php">Home</a></li>
+          <li><a id="colorFont" href="../index.php#escritorio">O escritorio</a></li>
+          <li><a id="colorFont" href="../index.php#equipe">A equipe</a></li>
+          <li><a id="colorFont" href="../index.php#parceiros">Parceiros e Clientes</a></li>
+          <li><a id="colorFont" href="../index.php#atuacao">Área de Atuação</a></li>
+          <!-- <li><a id="colorFont" href="../index.php#notícia">Notícia</a></li> -->
+          <li><a id="colorFont" href="../index.php#contato">Contato</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->

@@ -343,7 +343,7 @@
                 </div><!-- ./item active -->
                 <div class="col-lg-8 col-md-6"></div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" id="botoes">
-                  <a href="./view/equipe.html"><H4><strong>CONHEÇA TODA A EQUIPE </strong> <span class="glyphicon glyphicon-chevron-right"></span></H4></a>
+                  <a href="./view/equipe.php"><H4><strong>CONHEÇA TODA A EQUIPE </strong> <span class="glyphicon glyphicon-chevron-right"></span></H4></a>
                 </div><!-- ./col-lg-4 col-md-4 col-sm-4 -->
               </div><!-- ./container col-lg-8 col-md-8 col-sm-12 col-xs-12 -->
             </div><!-- ./row -->
@@ -395,7 +395,7 @@
 
             </div>
             <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12" id="botoes">
-              <a href="./view/parceirosClientes.html"><H4><strong>MAIS PARCEIROS E CLIENTES</strong> <span class="glyphicon glyphicon-chevron-right"></span></H4></a>
+              <a href="./view/parceirosClientes.php"><H4><strong>MAIS PARCEIROS E CLIENTES</strong> <span class="glyphicon glyphicon-chevron-right"></span></H4></a>
             </div>
           </div>
 
